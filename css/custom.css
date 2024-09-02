@@ -1,0 +1,69 @@
+.logo {
+    width: 120px;
+    margin-left: 15px;
+}
+
+.slider-arrow {
+    color: #fab702;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.about-us__container {
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-us__img-container {
+    height: 100%;
+}
+
+.about-us__img {
+    height: 700px;
+}
+
+.about-us__content-container {
+    padding: 70px;
+}
+
+
+@media (width <=1500px) {
+    .about-us__img {
+        height: 500px;
+    }
+}
+
+@media (width <=1200px) {
+    .about-us__img {
+        height: 300px;
+    }
+}
+
+@media (width <=850px) {
+    .about-us__container {
+        flex-direction: column;
+    }
+
+    .about-us__img-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-us__img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-us__content-container {
+        padding: 20px;
+    }
+}

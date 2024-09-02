@@ -11,7 +11,7 @@
         <title>Proequipos</title>
         
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="./assets/img/logo.PNG">
         <!--  construct Icon CSS -->
         <link rel="stylesheet" href="css/construct-icons.css">
         <!-- themify Icon CSS -->
@@ -33,6 +33,7 @@
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/custom.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/jquery.lazy.min.js"></script>
@@ -54,8 +55,8 @@
                 <div class="container">
                     <div class="col-xs-12 text-right xs-text-center">
                         <ul class="top-info display-inline-block">
-                            <li><i class="ti-headphone-alt"></i> <a href="tel: +18495221287">(849) 522-1287</a></li>
-                            <li><i class="ti-email"></i> <a href="mailto:info@proequipos.com.do">info@proequipos.com.do</a></li>
+                            <li> <a href="tel: +18495221287">(849) 522-1287</a></li>
+                            <li> <a href="mailto:info@proequipos.com.do">info@proequipos.com.do</a></li>
                         </ul>
                     </div>
                 </div>
@@ -64,12 +65,12 @@
                 <div class="container">
                     <div class="col-sm-3">
                         <div class="navbar-header">
-                            <a href="javascript:location.reload()" class="brand" style="margin-left: -40px;"><img src="logomapaca.png" alt="Proequipos"></a>
+                            <a href="javascript:location.reload()" class="brand" style="margin-left: -40px;"><img src="./assets/img/logo.PNG" class="logo" alt="Proequipos"></a>
                         </div>
                     </div>
                     <div class="col-sm-9 hidden-xs">
                         <div class="pull-right">
-                            <a href="https://wa.me/8495221287?text=Quiero%20una%20cotización" class="b-nav-btn">Contáctenos</a>
+                            <a href="https://wa.me/8495221287?text=Quiero%20una%20cotización" class="b-nav-btn b-btn">Contáctenos</a>
                         </div>
                         <nav class="mainmenu pull-right">
                             <ul id="navi-menu">
@@ -179,10 +180,10 @@
                 </div>
                 <div class="col-sm-5 xs-padding wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
                     <div class="content-box bg-yellow padding-40">
-                        <h4 class="text-white pb-5 bd-bottom-white">Oficina</h4>
-                        <ul class="addr-info text-white fz-13">
-                            <li><a href="https://www.google.com/maps?q=Av 27deFebrero391">Av. 27 de febrero No.391, 2do Nivel,<br> Santo Domingo, República Dominicana.</a></li>
-                            <li>Teléfonos: <a href="tel: +18495221287">(849) 522-1287</a>, <a href="tel: +18097323479">(809) 732-3479</a></li>
+                        <h4 class="text-black pb-5 bd-bottom-black">Oficina</h4>
+                        <ul class=" text-black fz-13">
+                            <li class="text-black"><a href="https://www.google.com/maps?q=Av 27deFebrero391">Av. 27 de febrero No.391, 2do Nivel,<br> Santo Domingo, República Dominicana.</a></li>
+                            <li class="text-black"><b>Teléfonos:</b> <a href="tel: +18495221287">(849) 522-1287</a>, <a href="tel: +18097323479">(809) 732-3479</a></li>
                             
                             <li><a href="mailto:info@proequipos.com.do">info@proequipos.com.do</a></li>
                             <li>L-V: 8:00am- 5:00pm, Sab 8:00am-12:00pm </li>
@@ -309,13 +310,15 @@
                     
         </section><!-- portfolio-section -->
         
-		<section id="about-section" class="content-block pos-relative padding bg-grey bd-bottom">
-            <div class="bg-img-wrap wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
-                <div class="bg-img atts-scroll" style="background-image: url(carpre.jpg);"></div>
+		<!-- <section id="about-section" class="content-block pos-relative padding bg-grey bd-bottom about-us__container"> -->
+		<section id="about-section" class="about-us__container">
+            <div class="about-us__img-container wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
+                <img src="./assets//img/about-us.PNG" alt="about-us__img" class="about-us__img">
+                <!-- <div class="about-us__img atts-scroll" style="background-image: url(./assets//img/about-us.PNG);"></div> -->
             </div>
-            <div class="container">
-                <div class="col-sm-6 col-sm-offset-6 xs-padding wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                    <div class="padding-30">
+            <div class="about-us__content-container">
+                <div class=" wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
+                    <div class="">
                         <h2 class="mb-20">QUIÉNES SOMOS</h2>
                         <p class="mb-20">Somos una empresa con más de 6 años de experiencia sólida en el mercado laboral, <span class="highlighted">PROEQUIPOS</span> provee la renta, venta y el servicio de soporte en obra de diversos sistemas de andamios y apuntalamientos para la construcción. Nos enorgullece ser líderes indiscutibles en la republica dominicana. </p>
                         <p>Desde nuestro inicio, nos hemos comprometido con la seguridad, la innovación y la satisfacción del cliente. Nuestra misión y visión va más allá de proporcionar andamios; estamos aquí para apoyarte en cada paso del proyecto, desde la planificación hasta la ejecución.</p>
@@ -338,23 +341,23 @@
                     <h2 class="mb-25">Hablemos de tu Proyecto</h2>
                     <p class="mb-30">Llámanos o visítanos en cualquier momento, nos esforzamos por responder todas las consultas.</p>
                     <p class="mb-30 fz-16">Estamos disponibles de lunes a viernes de 8:00 a.m. a 5:00 p.m. y los sábados de 8:00 a.m. a 12:00 p.m. ¡Te esperamos!</p>
-                    <p class="mb-30"><strong class="fw-7 text-black">VISÍTANOS : </strong><br><a style="color: rgb(25, 25, 25);" href="https://www.google.com/maps?q=Av 27deFebrero391">Av. 27 de febrero No.391, 2do Nivel,<br> Santo Domingo, República Dominicana.</a></p>
+                    <!-- <p class="mb-30"><strong class="fw-7 text-black">VISÍTANOS : </strong><br><a style="color: rgb(25, 25, 25);" href="https://www.google.com/maps?q=Av 27deFebrero391">Av. 27 de febrero No.391, 2do Nivel,<br> Santo Domingo, República Dominicana.</a></p> -->
                     <p>
                         <strong class="fw-7 text-black">Oficina: </strong> <a style="color: rgb(25, 25, 25);" href="tel: +18097323479">(809) 732-3479</a><br>
                         <strong class="fw-7 text-black">Celular: </strong><a style="color: rgb(25, 25, 25);" href="tel: +18495221287">(849) 522-1287</a><br>
                         <strong class="fw-7 text-black">Email: </strong> <a style="color: rgb(25, 25, 25);" href="mailto:info@proequipos.com.do">info@proequipos.com.do</a>
                     </p>
-                </div><!-- contact Info -->
-                <div class="col-sm-6 xs-padding">
-                    <h2 class="mb-25">Contáctanos</h2>
-                    <p>Visítanos o ponte en contacto a través del formulario a continuación <br> para hablar más sobre tu proyecto o idea.</p>
-
                     <div class="cf-wrapper">
-                        <section class="cta-section text-center bg-yellow ptb-40">
-                                <h2 class="text-white fz-18 no-margin display-inline-block">Obtén tu estimación gratuita para tu proyecto.</h2>
-                                <a href="mailto:info@proequipos.com.do" class="b-btn btn-white btn-border ml-15">CONTÁCTENOS <img src="email.svg" style="margin-left: 5px;" alt="email"></a>
+                        <section class="cta-container text-center bg-yellow ptb-40">
+                                <h2 class="text-black fz-18 no-margin display-inline-block">Obtén una estimación <br/> gratuita para tu proyecto.</h2>
+                                <a href="mailto:info@proequipos.com.do" class="b-btn btn-black btn-border ml-15">CONTÁCTENOS</a>
                         </section><!-- cta-section -->
                     </div>
+                </div><!-- contact Info -->
+                <div class="col-sm-6 xs-padding">
+                    <h2 class="mb-25">Visítanos</h2>
+                    <!-- <p>Visítanos o ponte en contacto a través del formulario a continuación <br> para hablar más sobre tu proyecto o idea.</p> -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.581701730352!2d-69.95232438864403!3d18.457292071030437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea562038379b45f%3A0x63c008371d065780!2sAv%2027%20de%20Febrero%20391%2C%20Santo%20Domingo!5e0!3m2!1ses!2sdo!4v1724972611546!5m2!1ses!2sdo" width="100%" height="520" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div><!-- contact form -->
             </div>
         </section>
@@ -365,7 +368,7 @@
                 <div class="container">
                     <div class="col-sm-4 col-xs-6 xs-padding">
                         <div class="widget-box">
-                            <img loading="lazy" style="margin-left: -40px;" class="mb-15" src="logo.svg" alt="Proequipos">
+                            <img loading="lazy" style="margin-left: -10px;" class="mb-15 logo" src="./assets/img/logo.PNG" alt="Proequipos">
                             <h4 class="text-light mb-25">Soluciones de altura para tu construccion</h4>
                             <p class="fz-13 mb-25 text-light">Llámanos o visítanos en cualquier momento. Nos esforzamos por responder todas las consultas dentro de las 24 horas hábiles.</p>
                         </div>
